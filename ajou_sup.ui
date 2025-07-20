@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ajou_sup</class>
+ <widget class="QDialog" name="ajou_sup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>866</width>
+    <height>530</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>631</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:40px;
+	}</string>
+   </property>
+   <property name="text">
+    <string>Ajout &amp; Supression :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="prenom_label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>220</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Email :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="enseignant_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Prénom :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ajouter_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>320</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ajouter</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_email">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>220</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_nom">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>140</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="supprimer_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>320</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sumpimer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_prenom">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>180</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_id">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>260</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="prenom_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Apogee :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="module_label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Nom :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="quiter_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>320</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font-size: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Veuillez remplire la formulaire :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>265</y>
+     <width>241</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(170, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>*Ce champ sert uniquement à la supression.</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

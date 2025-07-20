@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>partie_enseg</class>
+ <widget class="QDialog" name="partie_enseg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>776</width>
+    <height>580</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QCommandLinkButton" name="fps">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>440</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>FPS</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="lister">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>220</y>
+     <width>241</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Lister les étudiant</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="filtrer">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>310</y>
+     <width>241</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Filtrer les étudiants</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="modif_info">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>190</y>
+     <width>241</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modifier les informations d’un étudiant</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>631</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:40px;
+	}</string>
+   </property>
+   <property name="text">
+    <string>Dédié Aux Enseignants :</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="suprimer">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>280</y>
+     <width>241</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Supprimer un étudiant</string>
+   </property>
+  </widget>
+  <widget class="QCommandLinkButton" name="commandLinkButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>390</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>se connecter tant que étudiant</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>90</y>
+     <width>391</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	font-size: 25px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Veuillez sélectionner une tâche:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="select">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>350</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sélectionner</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="ajouter">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>250</y>
+     <width>241</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ajouter un étudiant</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="modif_note">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>160</y>
+     <width>241</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Modifier les notes d’un étudiant</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>350</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

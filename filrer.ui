@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>filrer</class>
+ <widget class="QDialog" name="filrer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1237</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="prenom_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>230</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Par prénom :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>340</y>
+     <width>561</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:40px;
+	}</string>
+   </property>
+   <property name="text">
+    <string>Affichage :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="moduleButt">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>110</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Filtrer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="note_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>190</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Par note :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="note_inp_min">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>190</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>641</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:40px;
+	}</string>
+   </property>
+   <property name="text">
+    <string>Filtrer les étudiants :</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="prenom_inp">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>230</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="enseignant_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Par enseignant :</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="prenom_label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>270</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Par apogee :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="apogee_Butt">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>270</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Filtrer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="enseignant_inp">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>150</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="note_inp_max">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>190</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="note_Butt">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>190</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Filtrer</string>
+   </property>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>-560</x>
+     <y>310</y>
+     <width>1591</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Orientation::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="module_label">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>181</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+font-size:20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Par module :</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="prenom_Butt">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>230</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Filtrer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="enseignant_Butt">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>150</y>
+     <width>80</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Filtrer</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="apogee_inp">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>270</y>
+     <width>113</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="text_result">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>330</y>
+     <width>381</width>
+     <height>181</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="module_inp">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>110</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Langues étrangères</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Développement personnel</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Structure de données</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Système d’exploitation</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Algèbre relationnel &amp; SQL</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Programmation C++</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Programmation JavaScript</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
